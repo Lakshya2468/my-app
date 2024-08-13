@@ -1,8 +1,4 @@
 import { FC, useEffect, useRef, useState } from "react";
-
-// Styles
-
-// Qr Scanner
 import QrScanner from "qr-scanner";
 import QrFrame from "../../public/qr-frame.svg";
 import Image from "next/image";
@@ -19,13 +15,13 @@ export const Warehouses: FC = () => {
 
   // Success
   const onScanSuccess = (result: QrScanner.ScanResult) => {
-    console.log(result);
-    setScannedResult(result?.data);
+    console.log("Scan Success:", result);
+    setScannedResult(result.data);
   };
 
   // Fail
   const onScanFail = (err: string | Error) => {
-    console.log(err);
+    console.error("Scan Fail:", err);
   };
 
   useEffect(() => {
