@@ -21,7 +21,6 @@ export const Warehouses: FC = () => {
   const onScanSuccess = (result: QrScanner.ScanResult) => {
     console.log(result);
     setScannedResult(result?.data);
-    console.log("Scanned Result: ", result?.data);
   };
 
   // Fail
