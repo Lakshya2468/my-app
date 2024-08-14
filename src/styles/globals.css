@@ -51,7 +51,7 @@ body {
 }
 
 .qr-reader .qr-frame {
-  position: absolute;
+  position: center;
   fill: none;
   left: 50%;
   top: 50%;
