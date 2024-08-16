@@ -35,6 +35,7 @@ export const Warehouses: FC = () => {
         highlightScanRegion: true,
         highlightCodeOutline: true,
         overlay: qrBoxEl.current || undefined,
+        maxScansPerSecond: 1,
       });
 
       // Start QR Scanner
