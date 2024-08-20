@@ -1,6 +1,6 @@
 import QrScanner from 'qr-scanner'
 import { FC, useEffect, useRef, useState } from 'react'
-import QrFrame from '../../public/images/qr-frame.svg'
+import QrFrame from '../../public/qr-frame.svg'
 // import "../../public/ckeditor/qrcode/qrStyle.css";
 import '../styles/qrcode/qrStyle.css'
 
