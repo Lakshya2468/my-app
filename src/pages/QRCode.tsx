@@ -99,6 +99,12 @@ export const Warehouses: FC = () => {
       
       </tbody>
     </table>
+    <button
+            className="btn"
+       
+          >
+            Submit
+          </button>
       
           <button
             className="btn"
