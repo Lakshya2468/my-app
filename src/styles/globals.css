@@ -44,12 +44,12 @@ body {
 }
 
 .qr-video {
-  width: 80%; /* Adjust the width as needed */
-  height: 80%; /* Adjust the height as needed */
+  width: 40%; /* Reduced width */
+  height: 40%; /* Reduced height */
   object-fit: cover;
   position: absolute;
-  top: 10%; /* Center the video vertically */
-  left: 10%; /* Center the video horizontally */
+  top: 30%; /* Center the video vertically */
+  left: 30%; /* Center the video horizontally */
 }
 
 .qr-overlay {
@@ -104,9 +104,9 @@ body {
     height: 200px;
   }
   .qr-video {
-    width: 50%; /* Adjust the width for mobile screens */
-    height: 10%; /* Adjust the height for mobile screens */
-    top: 5%; /* Center the video vertically */
-    left: 5%; /* Center the video horizontally */
+    width: 60%; /* Reduced width for mobile screens */
+    height: 60%; /* Reduced height for mobile screens */
+    top: 20%; /* Center the video vertically */
+    left: 20%; /* Center the video horizontally */
   }
 }
