@@ -4,7 +4,6 @@ import QrFrame from "../../public/qr-frame.svg";
 import Image from "next/image";
 
 export const Warehouses: FC = () => {
-  // QR States
   const scanner = useRef<QrScanner>();
   const videoEl = useRef<HTMLVideoElement>(null);
   const qrBoxEl = useRef<HTMLDivElement>(null);
