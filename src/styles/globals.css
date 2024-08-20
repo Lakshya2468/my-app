@@ -34,7 +34,7 @@ body {
 
 .qr-reader {
   width: 100%;
-  height: 50vh;
+  height: 100vh;
   margin: 0 auto;
   position: relative;
   display: flex;
@@ -97,7 +97,7 @@ body {
 /* Media Queries for mobile screens */
 @media (max-width: 426px) {
   .qr-reader {
-    width: 100%;
+    width: 50%;
   }
   .qr-box {
     width: 200px; 
