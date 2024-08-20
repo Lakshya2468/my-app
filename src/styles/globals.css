@@ -101,7 +101,7 @@ body {
   }
   .qr-box {
     width: 200px; 
-    height: 100px;
+    height: 200px;
   }
   .qr-video {
     width: 60%; /* Reduced width for mobile screens */
