@@ -97,7 +97,12 @@ export const Warehouses: FC = () => {
               key: 'quantity'
             }
           ]}
-          dataSource={JSON.parse(scannedResult)}
+          dataSource={[
+            {
+              productId: 'ddddddddd',
+              quantity: 1
+            }
+          ]}
           />
       
           <button
