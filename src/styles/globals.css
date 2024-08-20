@@ -45,7 +45,7 @@ body {
 
 .qr-video {
   width: 40%; /* Reduced width */
-  height: 40%; /* Reduced height */
+  height: 50%; /* Reduced height */
   object-fit: cover;
   position: absolute;
   top: 100%; /* Center the video vertically */
