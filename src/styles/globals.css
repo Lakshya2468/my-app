@@ -104,7 +104,7 @@ body {
     height: 200px;
   }
   .qr-video {
-    width: 60%; /* Reduced width for mobile screens */
+    width: 30%; /* Reduced width for mobile screens */
     height: 90%; /* Reduced height for mobile screens */
     top: 20%; /* Center the video vertically */
     left: 20%; /* Center the video horizontally */
