@@ -2,7 +2,6 @@ import { FC, useEffect, useRef, useState } from "react";
 import QrScanner from "qr-scanner";
 import QrFrame from "../../public/qr-frame.svg";
 import Image from "next/image";
-import { Table } from "antd";
 
 export const Warehouses: FC = () => {
   const scanner = useRef<QrScanner>();
@@ -84,26 +83,22 @@ export const Warehouses: FC = () => {
           }}
         >
           {/* Scanned Result: {scannedResult} */}
-          <Table
-          columns={[
-            {
-              title: 'Product ID',
-              dataIndex: 'productId',
-              key: 'productId'
-            },
-            {
-              title: 'Quantity',
-              dataIndex: 'quantity',
-              key: 'quantity'
-            }
-          ]}
-          dataSource={[
-            {
-              productId: 'ddddddddd',
-              quantity: 1
-            }
-          ]}
-          />
+          <table>
+      <thead>
+        <tr>
+          <th>Product ID</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+       
+          <tr>
+            <td>{JSON.parse(scannedResult).productId}</td>
+            <td>{JSON.parse(scannedResult).quantity}</td>
+          </tr>
+      
+      </tbody>
+    </table>
       
           <button
             className="btn"
