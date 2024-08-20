@@ -67,11 +67,12 @@ export const Warehouses: FC = () => {
 
   return (
     <div className="qr-reader">
-      <video ref={videoEl}></video>
-      <div ref={qrBoxEl} className="qr-box">
+      <video ref={videoEl} className="qr-video"></video>
+      <div className="qr-overlay"></div>
+      <div className="qr-box">
         <Image src={QrFrame} alt="Qr Frame" />
+        <div className="scanner-line"></div>
       </div>
-
       {scannedResult && (
         <p
           style={{
