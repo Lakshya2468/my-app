@@ -82,23 +82,22 @@ export const Warehouses: FC = () => {
             color: 'white'
           }}
         >
-          Scanned Result: {scannedResult}
-          <table>
-      <thead>
-        <tr>
-          <th>Product ID</th>
-          <th>Quantity</th>
-        </tr>
-      </thead>
-      <tbody>
-       
-          <tr>
-            <td>{JSON.parse(scannedResult).productId}</td>
-            <td>{JSON.parse(scannedResult).quantity}</td>
+          <div className="overflow-x-auto">
+      <table className="min-w-full bg-white border border-gray-200">
+        <thead>
+          <tr className="bg-gray-100">
+            <th className="py-2 px-4 border-b">Product ID</th>
+            <th className="py-2 px-4 border-b">Quantity</th>
           </tr>
-      
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          <tr className="hover:bg-gray-50">
+            <td className="py-2 px-4 border-b">{JSON.parse(scannedResult).productId}</td>
+            <td className="py-2 px-4 border-b">{JSON.parse(scannedResult).quantity}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
     <button
             className="btn"
        
