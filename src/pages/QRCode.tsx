@@ -70,7 +70,7 @@ export const Warehouses: FC = () => {
       <video ref={videoEl} className="qr-video"></video>
       <div className="qr-overlay"></div>
       <div className="qr-box">
-        <img src={QrFrame} alt="Qr Frame" />
+        <Image src={QrFrame} alt="Qr Frame" />
         <div className="scanner-line"></div>
       </div>
       {scannedResult && (
