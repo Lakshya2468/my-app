@@ -83,7 +83,7 @@ export const Warehouses: FC = () => {
             color: 'white'
           }}
         >
-          Scanned Result: {scannedResult}
+          {/* Scanned Result: {scannedResult} */}
           <Table
           columns={[
             {
