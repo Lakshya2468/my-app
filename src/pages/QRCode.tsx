@@ -92,7 +92,7 @@ export const Warehouses: FC = () => {
         </thead>
         <tbody>
           <tr className="hover:bg-gray-50">
-            <td className="py-2 px-4 border-b">{JSON.parse(scannedResult).fulfilmentItemId}</td>
+            <td className="py-2 px-4 border-b">{JSON.parse(scannedResult).productId}</td>
             <td className="py-2 px-4 border-b">{JSON.parse(scannedResult).quantity}</td>
           </tr>
         </tbody>
