@@ -44,12 +44,12 @@ body {
 }
 
 .qr-video {
-  width: 40%; /* Reduced width */
-  height: 30%; /* Further reduced height */
+  width: 40%; 
+  height: 30%; 
   object-fit: cover;
   position: absolute;
-  top: 25%; /* Center the video vertically */
-  left: 30%; /* Center the video horizontally */
+  top: 25%; 
+  left: 30%;
 }
 
 .qr-overlay {
@@ -94,19 +94,19 @@ body {
   }
 }
 
-/* Media Queries for mobile screens */
+
 @media (max-width: 426px) {
   .qr-reader {
-    width: 50%;
+    width: 100%;
   }
   .qr-box {
     width: 200px; 
     height: 200px;
   }
   .qr-video {
-    width: 60%; /* Reduced width for mobile screens */
-    height: 50%; /* Further reduced height for mobile screens */
-    top: 30%; /* Center the video vertically */
-    left: 20%; /* Center the video horizontally */
+    width: 60%;
+    height: 50%;
+    top: 30%;
+    left: 20%;
   }
 }
