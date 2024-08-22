@@ -47,7 +47,7 @@ body {
   height: 30%; 
   object-fit: cover;
   position: absolute;
-  top: 20%; 
+  top: 25%; 
   left: 30%;
 }
 
@@ -105,7 +105,7 @@ body {
   .qr-video {
     width: 60%;
     height: 50%;
-    top: 10%;
+    top: 25%;
     left: 20%;
   }
 }
