@@ -43,12 +43,18 @@ body {
 }
 
 .qr-video {
-  width: 40%; 
-  height: 70%; 
-  object-fit: cover;
   position: absolute;
-  top: 25%; 
-  left: 30%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 822px) {
+  .qr-video {
+    width: 822px;
+  }
 }
 
 .qr-overlay {
