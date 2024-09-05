@@ -53,12 +53,6 @@ body {
   object-fit: cover;
 }
 
-@media (min-width: 822px) {
-  .qr-video {
-    width: 430px;
-  }
-}
-
 .qr-overlay {
   position: absolute;
   top: 0;
@@ -66,7 +60,6 @@ body {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
-  /* backdrop-filter: blur(8px); */
   z-index: 1;
 }
 
@@ -74,13 +67,13 @@ body {
   position: absolute;
   width: 300px; 
   height: 300px; 
-  border: 2px solid yellow; /* Changed to yellow for visibility */
+  border: 2px solid yellow;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 2;
   background: none;
-  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+  box-sizing: border-box;
 }
 
 .scanner-line {
@@ -111,9 +104,7 @@ body {
     height: 200px;
   }
   .qr-video {
-    width: 60%;
-    height: 50%;
-    top: 25%;
-    left: 20%;
+    width: 100%;
+    height: 100%;
   }
 }
