@@ -82,8 +82,6 @@ export const Warehouses: FC = () => {
             color: 'white'
           }}
         >
-        </p>
-      )}
           <div className="overflow-x-auto">
       <table className="min-w-full bg-white border border-gray-200">
         <thead>
@@ -94,8 +92,8 @@ export const Warehouses: FC = () => {
         </thead>
         <tbody>
           <tr className="hover:bg-gray-50">
-            <td className="py-2 px-4 border-b">ddddddddd</td>
-            <td className="py-2 px-4 border-b">ddddddddddddddd</td>
+            <td className="py-2 px-4 border-b">{JSON.parse(scannedResult).productId}</td>
+            <td className="py-2 px-4 border-b">{JSON.parse(scannedResult).quantity}</td>
           </tr>
         </tbody>
       </table>
@@ -115,6 +113,8 @@ export const Warehouses: FC = () => {
           >
             Cancel
           </button>
+        </p>
+      )}
     </div>
   )
 };
