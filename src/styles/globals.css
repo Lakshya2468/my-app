@@ -43,8 +43,8 @@ body {
 }
 
 .qr-video {
-  width: 60%; 
-  height: 50%; 
+  width: 40%; 
+  height: 70%; 
   object-fit: cover;
   position: absolute;
   top: 25%; 
